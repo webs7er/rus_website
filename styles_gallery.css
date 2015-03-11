@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    word-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #808080;
+    size: "4";
+}
