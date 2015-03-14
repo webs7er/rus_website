@@ -30,8 +30,8 @@ body {
 #menu ul li {
     list-style: none;
     display: block;
-    margin: 0;
-    padding: 0;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 #menu li {
@@ -146,4 +146,8 @@ body {
 #menu li ul li:hover a,
 #menu li ul li a:hover {
     background: #EEE;
+}
+
+.images{
+margin: 40px; 
 }
