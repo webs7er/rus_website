@@ -1,5 +1,6 @@
 * {
     margin: 0 0 0 0;
+    padding: 0;
 }
 
 #h1 {
@@ -36,9 +37,9 @@ body {
 #menu ul li {
     list-style: none;
     display: block;
-    margin-left: 260px;
-    margin-right: 260px;
-    padding: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
 }
 
 #menu li {
