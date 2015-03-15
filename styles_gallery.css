@@ -27,19 +27,16 @@ body {
     background-image: url(images/bg.gif);
 }
 
-#menu {
-    /*Remove the dots in the horizontal menu */
-    
+#menu {  
     list-style: none;
+    margin-left: 240px
 }
 
 #menu ul,
 #menu ul li {
     list-style: none;
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px;
+
 }
 
 #menu li {
@@ -52,13 +49,12 @@ body {
 #menu li a {
     display: block;
     border: none;
-    padding: 0 5px;
+    padding: 0px 5px;
     font-family: Tahoma;
     color: #333333;
     font-size: 13pt;
     font-weight: bold;
 }
-/* Dropdown menu (under "Foundation" and "Contacts") */
 
 #menu li ul {
     display: none;
@@ -94,44 +90,14 @@ body {
 #menu li ul li + li {
     margin-top: -1px;
 }
-/************** IE 6 ***************/
-
-* html #menu {
-    border-left: 0;
-}
-
-* html #menu li a {
-    border-left: 0;
-}
-
-* html #menu ul {
-    border-bottom: 0;
-}
-
-* html #menu li li a {
-    border-bottom: 0;
-}
 
 * html #menu li ul {
     display: block;
 }
 
-* html #menu li a:hover {
-    position: static;
-}
-
 * html #menu li a:hover table {
     visibility: visible;
 }
-
-* html #menu table {
-    position: absolute;
-    border-collapse: collapse;
-    top: 0;
-    left: -1px;
-    visibility: hidden;
-}
-/************** END IE 6 ***************/
 
 #menu > li a {
     outline: 0;
@@ -155,7 +121,9 @@ body {
 }
 
 .images {
-    margin: 350px;
+    width: 766px; 
+    height: 213px; 
+    margin: 50px 100px 0px 230px
 }
 
 #topimage {
