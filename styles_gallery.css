@@ -1,21 +1,23 @@
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    border: 0 0 0 0;
 }
 
-#h1 {
-    font-style: bold;
-    font-size: 6;
+#topheading {
+    font-size: xx-large;
     color: #333333;
-}
-
-#h2 {
+    font-weight: bold;
     word-spacing: 1px;
-    color: #808080;
-    font-size: 4;
 }
 
-#artwork {
+#bottomheading {
+    color: #808080;
+    font-size: large;
+    word-spacing: 1px;
+}
+
+#artworks {
     clear: left;
     text-decoration: none;
     color: #F44500;
@@ -25,17 +27,16 @@
 body {
     font-family: Arial;
     text-align: center;
-    align-content: center;
     background-image: url(images/bg.gif);
 }
 
 #menu {
     /*Remove the dots in the dropdown menu */
     
+    align-content: center;
     width: 766px;
     margin: auto;
     list-style: none;
-    margin-left: 240px;
     font-family: fantasy;
 }
 /* Dropdown menu formatting */
@@ -60,12 +61,11 @@ body {
     display: block;
     border: none;
     vertical-align: middle;
-    padding: 0 5px;
     padding: 0px 5px;
     font-family: Tahoma;
     color: #333333;
     font-size: 13pt;
-    font-weight: bold;
+    font-weight: normal;
 }
 /* Dropdown menu (under "Foundation" and "Contacts") is hidden by default*/
 
@@ -105,14 +105,26 @@ body {
     margin-top: -1px;
 }
 
+#img {
+    width: auto;
+}
+
 .images {
     width: 766px;
     height: 213px;
-    margin: 50px 100px 0px 230px
+    margin: auto;
+    padding: auto;
 }
 
 #topimage {
+    margin: auto;
     width: 766px;
     height: 213px;
-    padding: 40px;
+    padding-bottom: 30px;
+}
+
+#line {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
