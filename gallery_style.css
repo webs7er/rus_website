@@ -21,8 +21,16 @@
     clear: left;
     text-decoration: none;
     color: #F44500;
-    padding-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
     padding-bottom: 20px;
+}
+
+#slides {
+    width: 766px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
 }
 
 body {
@@ -148,5 +156,9 @@ div.item {
 .caption {
     /* Make the caption a block so it occupies its own line. */
     
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #555555;
     display: block;
 }
