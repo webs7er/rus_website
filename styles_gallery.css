@@ -35,17 +35,10 @@ body {
 #menu ul,
 #menu ul li {
     list-style: none;
-<<<<<<< HEAD
     display: block;
-<<<<<<< HEAD
     margin-left: 260px;
     margin-right: 260px;
     padding: 50px;
-=======
->>>>>>> parent of b2a1f9e... Revert "fuck my life in paris"
-    margin: 0;
-    padding: 0;
->>>>>>> parent of ec7e8e7... fuck my life in paris
 }
 
 #menu li {
@@ -160,14 +153,12 @@ body {
     background: #EEE;
 }
 
-.images{
-margin: 350px;
-
+.images {
+    margin: 350px;
 }
 
-
-#topimage{
-width: 766px;
-height: 213px; 
-padding: 40px;
+#topimage {
+    width: 766px;
+    height: 213px;
+    padding: 40px;
 }
