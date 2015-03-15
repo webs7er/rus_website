@@ -28,7 +28,7 @@
 body {
     font-family: Arial;
     text-align: center;
-    background-image: url(images/bg.gif);
+    background-image: url(images_gallery/bg.gif);
 }
 
 #menu {
@@ -54,7 +54,6 @@ body {
     height: 1.5em;
     line-height: 1.5em;
     position: relative;
-    
 }
 /* Main menu formatting */
 
@@ -84,7 +83,6 @@ body {
 #menu li:hover ul {
     display: block;
     float: none;
- 
 }
 /* Dropdown menu (under "Foundation" and "Contacts") appears in one column */
 
@@ -128,24 +126,27 @@ body {
 }
 
 #nav a {
-    display:block; 
+    display: block;
     float: left;
-    width:100px; 
+    width: 100px;
 }
 
 div.item {
     /* To correctly align image, regardless of content height: */
+    
     vertical-align: top;
     display: inline-block;
     padding: 20px;
     /* To horizontally center images and caption */
+    
     text-align: center;
     /* The width of the container also implies margin around the images. */
+    
     width: 120px;
 }
 
-
 .caption {
     /* Make the caption a block so it occupies its own line. */
+    
     display: block;
 }
