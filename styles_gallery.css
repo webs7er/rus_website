@@ -19,6 +19,7 @@
     clear: left;
     text-decoration: none;
     color: #F44500;
+    padding-top: 20px;
 }
 
 body {
@@ -28,17 +29,13 @@ body {
     background-image: url(images/bg.gif);
 }
 
-<<<<<<< HEAD
-#menu {  
-=======
 #menu {
-    /*Remove the dots in the horizontal menu */
-    
     width: 766px;
     margin: auto;
->>>>>>> origin/master
     list-style: none;
-    margin-left: 240px
+    margin-left: 240px;
+    font-family: fantasy;
+    
 }
 
 #menu ul,
