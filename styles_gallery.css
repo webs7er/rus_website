@@ -30,9 +30,13 @@ body {
 #menu ul li {
     list-style: none;
     display: block;
+<<<<<<< HEAD
     margin-left: 260px;
     margin-right: 260px;
     padding: 50px;
+    margin: 0;
+    padding: 0;
+>>>>>>> parent of ec7e8e7... fuck my life in paris
 }
 
 #menu li {
