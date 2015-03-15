@@ -30,20 +30,22 @@ body {
 }
 
 #menu {
+    /*Remove the dots in the dropdown menu */
+    
     width: 766px;
     margin: auto;
     list-style: none;
     margin-left: 240px;
     font-family: fantasy;
-    
 }
+/* Dropdown menu formatting */
 
 #menu ul,
 #menu ul li {
     list-style: none;
     display: block;
-
 }
+/* Main menu appears in one line (and not in one column) */
 
 #menu li {
     float: left;
@@ -51,16 +53,20 @@ body {
     line-height: 1.5em;
     position: relative;
 }
+/* Main menu formatting */
 
 #menu li a {
     display: block;
     border: none;
+    vertical-align: middle;
+    padding: 0 5px;
     padding: 0px 5px;
     font-family: Tahoma;
     color: #333333;
     font-size: 13pt;
     font-weight: bold;
 }
+/* Dropdown menu (under "Foundation" and "Contacts") is hidden by default*/
 
 #menu li ul {
     display: none;
@@ -69,19 +75,20 @@ body {
     left: .5em;
     background: #FFFFFF;
 }
+/* Dropdown menu (under "Foundation" and "Contacts") is displayed on hover */
 
 #menu li:hover ul {
     display: block;
 }
+/* Dropdown menu (under "Foundation" and "Contacts") appears in one column */
 
 #menu li ul li {
     float: none;
     width: 100%;
 }
+/* Dropdown menu (under "Foundation" and "Contacts") formatting */
 
 #menu li ul li a {
-    text-align: center;
-    align-content: center;
     display: block;
     border: none;
     vertical-align: middle;
@@ -127,8 +134,8 @@ body {
 }
 
 .images {
-    width: 766px; 
-    height: 213px; 
+    width: 766px;
+    height: 213px;
     margin: 50px 100px 0px 230px
 }
 
