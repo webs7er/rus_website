@@ -56,6 +56,7 @@ body {
 /* Main menu formatting */
 
 #menu li a {
+    text-decoration: none;
     display: block;
     border: none;
     vertical-align: middle;
@@ -102,35 +103,6 @@ body {
 
 #menu li ul li + li {
     margin-top: -1px;
-}
-
-* html #menu li ul {
-    display: block;
-}
-
-* html #menu li a:hover table {
-    visibility: visible;
-}
-
-#menu > li a {
-    outline: 0;
-    text-decoration: none;
-}
-
-#menu li:hover a,
-#menu li a:hover a {
-    color: #666666;
-}
-
-#menu li li a,
-#menu li:hover li a,
-#menu li a:hover li a {
-    background: #FFF;
-}
-
-#menu li ul li:hover a,
-#menu li ul li a:hover {
-    background: #EEE;
 }
 
 .images {
