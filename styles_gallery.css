@@ -2,34 +2,39 @@
     margin: 0 0 0 0;
 }
 
+#h1 {
+    font-style: bold;
+    font-size: 6;
+    color: #333333;
+}
+
 #h2 {
     word-spacing: 1px;
-    margin-top: 0;
-    margin-bottom: 0;
     color: #808080;
-    size: "4";
+    font-size: 4;
 }
 
 #artwork {
-    text-decoration: none underline;
+    text-decoration: none;
     color: #F44500;
 }
 
 body {
+    font-family: Arial;
     text-align: center;
     align-content: center;
     background-image: url(images/bg.gif);
 }
 
 #menu {
-    margin: 0 0 0 190px;
+    /*Remove the dots in the horizontal menu */
+    
+    list-style: none;
 }
 
-#menu,
 #menu ul,
 #menu ul li {
     list-style: none;
-    display: block;
     margin: 0;
     padding: 0;
 }
@@ -44,17 +49,13 @@ body {
 #menu li a {
     display: block;
     border: none;
-    vertical-align: middle;
     padding: 0 5px;
     font-family: Tahoma;
     color: #333333;
     font-size: 13pt;
     font-weight: bold;
 }
-
-#menu > li + li {
-    margin-left: -1px;
-}
+/* Dropdown menu (under "Foundation" and "Contacts") */
 
 #menu li ul {
     display: none;
@@ -74,6 +75,8 @@ body {
 }
 
 #menu li ul li a {
+    text-align: center;
+    align-content: center;
     display: block;
     border: none;
     vertical-align: middle;
