@@ -25,14 +25,12 @@
     padding: 10px;
     font-weight: bold;
     color: #555;
-    
 }
 
 #FB {
     float: right;
     width: 25px;
     height: 25px;
-   
 }
 
 #artworks {
@@ -161,11 +159,9 @@ div.item {
     /* To correctly align image, regardless of content height: */
     
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     /* To horizontally center images and caption */
     /* The width of the container also implies margin around the images. */
-    
-    max-width: 100px;
 }
 
 .caption {
