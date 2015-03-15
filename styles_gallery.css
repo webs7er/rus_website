@@ -19,6 +19,7 @@
     clear: left;
     text-decoration: none;
     color: #F44500;
+    padding-top: 20px;
 }
 
 body {
@@ -28,17 +29,14 @@ body {
     background-image: url(images/bg.gif);
 }
 
-<<<<<<< HEAD
-#menu {  
-=======
 #menu {
     /*Remove the dots in the dropdown menu */
     
     width: 766px;
     margin: auto;
->>>>>>> origin/master
     list-style: none;
-    margin-left: 240px
+    margin-left: 240px;
+    font-family: fantasy;
 }
 /* Dropdown menu formatting */
 
@@ -46,7 +44,6 @@ body {
 #menu ul li {
     list-style: none;
     display: block;
-
 }
 /* Main menu appears in one line (and not in one column) */
 
@@ -61,21 +58,15 @@ body {
 #menu li a {
     display: block;
     border: none;
-<<<<<<< HEAD
     vertical-align: middle;
     padding: 0 5px;
-=======
     padding: 0px 5px;
->>>>>>> origin/master
     font-family: Tahoma;
     color: #333333;
     font-size: 13pt;
     font-weight: bold;
 }
-<<<<<<< HEAD
 /* Dropdown menu (under "Foundation" and "Contacts") is hidden by default*/
-=======
->>>>>>> origin/master
 
 #menu li ul {
     display: none;
@@ -143,8 +134,8 @@ body {
 }
 
 .images {
-    width: 766px; 
-    height: 213px; 
+    width: 766px;
+    height: 213px;
     margin: 50px 100px 0px 230px
 }
 
