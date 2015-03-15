@@ -17,6 +17,24 @@
     word-spacing: 1px;
 }
 
+#update {
+    text-decoration: underline;
+    font-size: 10pt;
+    font-family: Arial;
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    color: #555;
+    
+}
+
+#FB {
+    float: right;
+    width: 25px;
+    height: 25px;
+   
+}
+
 #artworks {
     clear: left;
     text-decoration: none;
@@ -144,7 +162,7 @@ div.item {
     
     vertical-align: top;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     /* To horizontally center images and caption */
     
     text-align: center;
