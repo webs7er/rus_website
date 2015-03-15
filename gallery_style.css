@@ -22,6 +22,7 @@
     text-decoration: none;
     color: #F44500;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body {
@@ -49,14 +50,16 @@ body {
 /* Main menu appears in one line (and not in one column) */
 
 #menu li {
-    float: left;
+    display: inline-block!important;
     height: 1.5em;
     line-height: 1.5em;
     position: relative;
+    
 }
 /* Main menu formatting */
 
 #menu li a {
+    margin: center;
     text-decoration: none;
     display: block;
     border: none;
@@ -80,6 +83,8 @@ body {
 
 #menu li:hover ul {
     display: block;
+    float: none;
+ 
 }
 /* Dropdown menu (under "Foundation" and "Contacts") appears in one column */
 
@@ -109,13 +114,6 @@ body {
     width: auto;
 }
 
-.images {
-    width: 766px;
-    height: 213px;
-    margin: auto;
-    padding: auto;
-}
-
 #topimage {
     margin: auto;
     width: 766px;
@@ -124,7 +122,30 @@ body {
 }
 
 #line {
-    margin: auto;
+    margin: center;
     margin-top: 10px;
     margin-bottom: 4px;
+}
+
+#nav a {
+    display:block; 
+    float: left;
+    width:100px; 
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
 }
