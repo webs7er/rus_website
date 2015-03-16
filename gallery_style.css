@@ -162,7 +162,7 @@ div.item {
     
     vertical-align: top;
     display: inline-block;
-    padding: 18px;
+    margin: 18px;
     /* To horizontally center images and caption */
     
     text-align: center;
@@ -206,6 +206,31 @@ div.theLastItem {
     padding: 5px;
 }
 
+div.first{
+    display: table-row;
+    
+}
+
+div.second{
+    display: table-row;
+    
+}
+
+div.third{
+    display: table-row;
+}
+
+div.fourth{
+    display: table-row;
+}
+
+div.fifth{
+    display: table-row;
+}
+
 div.names{
-    display:
+
+    margin: auto;
+    width: 766px;
+    height: auto;
 }
