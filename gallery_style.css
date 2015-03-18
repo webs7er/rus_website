@@ -207,30 +207,42 @@ div.theLastItem {
 }
 
 div.first{
-    display: table-row;
-    
+    word-spacing: 150px;
+    font-size: 10pt;   
 }
-
 div.second{
-    display: table-row;
-    
+    word-spacing: 150px;
+    font-size: 10pt;
 }
-
 div.third{
-    display: table-row;
+    word-spacing: 150px;
+    font-size: 10pt;
 }
-
 div.fourth{
-    display: table-row;
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+div.fifth{
+    word-spacing: 150px;
+    font-size: 10pt;
 }
 
-div.fifth{
-    display: table-row;
+div a{
+    text-align: left;
+    margin: 0 20 0 20;
 }
+    
+
+
+
+
 
 div.names{
 
     margin: auto;
     width: 766px;
     height: auto;
+    word-spacing: 50px;
+   
+   
 }
