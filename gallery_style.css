@@ -25,14 +25,12 @@
     padding: 10px;
     font-weight: bold;
     color: #555;
-    
 }
 
 #FB {
     float: right;
     width: 25px;
     height: 25px;
-   
 }
 
 #artworks {
@@ -171,14 +169,12 @@ div.item {
     width: 120px;
 }
 
-
-
 div.theLastItem {
     /* To correctly align image, regardless of content height: */
+    
     vertical-align: top;
     display: inline-block;
     padding: 18px;
-    
     /* To horizontally center images and caption */
     
     text-align: center;
@@ -197,7 +193,7 @@ div.theLastItem {
     display: block;
 }
 
-#ArtistDatabase{
+#ArtistDatabase {
     text-decoration: underline;
     color: rgb(244, 69, 0);
     cursor: auto;
@@ -206,43 +202,54 @@ div.theLastItem {
     padding: 5px;
 }
 
-div.first{
-    word-spacing: 150px;
-    font-size: 10pt;   
-}
-div.second{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-div.third{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-div.fourth{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-div.fifth{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-
-div a{
-    text-align: left;
-    margin: 0 20 0 20;
-}
-    
-
-
-
-
-
-div.names{
-
+div.names {
     margin: auto;
     width: 766px;
-    height: auto;
-    word-spacing: 50px;
-   
-   
+}
+
+div.first {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div.second {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div.third {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div.fourth {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div.fifth {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div a {
+    float: left;
+    width: 255.3px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #555555;
+    font-weight: bold;
+}
+
+div a:hover {
+    color: #FF6600;
+}
+
+#blackbox {
+    clear: both;
+    width: 791px;
+    height: 150px;
+    background-color: black;
+    margin: auto;
 }
