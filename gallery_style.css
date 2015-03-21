@@ -4,14 +4,14 @@
     border: 0 0 0 0;
 }
 
-#topheading {
+#firstheading {
     font-size: xx-large;
     color: #333333;
     font-weight: bold;
     word-spacing: 1px;
 }
 
-#bottomheading {
+#secondheading {
     color: #808080;
     font-size: large;
     word-spacing: 1px;
@@ -31,6 +31,147 @@
     float: right;
     width: 25px;
     height: 25px;
+}
+
+#topimage {
+    margin: auto;
+    width: 766px;
+    height: 213px;
+    padding-bottom: 30px;
+}
+/*==========================
+ Top Menu
+===========================*/
+
+#menu {
+    align-content: center;
+    width: 766px;
+    margin: auto;
+    list-style: none;
+    font-family: fantasy;
+}
+
+#menu ul,
+#menu ul li {
+    list-style: none;
+    display: block;
+}
+
+#menu li {
+    display: inline-block!important;
+    height: 1.5em;
+    line-height: 1.5em;
+    position: relative;
+}
+
+#menu li a {
+    margin: center;
+    text-decoration: none;
+    display: block;
+    border: none;
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-family: Tahoma;
+    color: #333333;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: .5em;
+    background: #FFFFFF;
+}
+
+#menu li:hover ul {
+    display: block;
+    float: none;
+}
+
+#menu li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu li ul li a {
+    display: block;
+    border: none;
+    vertical-align: middle;
+    padding: 0 .5em;
+    font-family: Tahoma;
+    color: #666666;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+#menu li ul li + li {
+    margin-top: -1px;
+}
+/*==========================
+ Links
+===========================*/
+
+div a {
+    float: left;
+    height: 30px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #555555;
+    font-weight: bold;
+}
+
+div a:hover {
+    color: #FF6600;
+}
+/*==========================
+ Artist Database Table
+===========================*/
+
+div.names {
+    margin: auto;
+    width: 900px;
+}
+
+.adbtextbox {
+    text-align: left;
+    width: 153.2px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#line {
+    clear: both;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+#nav a {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+div.item {
+    display: inline-block;
+    margin: 18px;
+    width: 120px;
+}
+
+.picture_caption {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #555555;
+}
+
+#ArtistDatabase {
+    color: #F44500;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px;
 }
 
 #artworks {
@@ -55,164 +196,6 @@ body {
     background-image: url(images_gallery/bg.gif);
 }
 
-#menu {
-    /*Remove the dots in the dropdown menu */
-    
-    align-content: center;
-    width: 766px;
-    margin: auto;
-    list-style: none;
-    font-family: fantasy;
-}
-/* Dropdown menu formatting */
-
-#menu ul,
-#menu ul li {
-    list-style: none;
-    display: block;
-}
-/* Main menu appears in one line (and not in one column) */
-
-#menu li {
-    display: inline-block!important;
-    height: 1.5em;
-    line-height: 1.5em;
-    position: relative;
-}
-/* Main menu formatting */
-
-#menu li a {
-    margin: center;
-    text-decoration: none;
-    display: block;
-    border: none;
-    vertical-align: middle;
-    padding: 0px 5px;
-    font-family: Tahoma;
-    color: #333333;
-    font-size: 13pt;
-    font-weight: normal;
-}
-/* Dropdown menu (under "Foundation" and "Contacts") is hidden by default*/
-
-#menu li ul {
-    display: none;
-    position: absolute;
-    top: 1.5em;
-    left: .5em;
-    background: #FFFFFF;
-}
-/* Dropdown menu (under "Foundation" and "Contacts") is displayed on hover */
-
-#menu li:hover ul {
-    display: block;
-    float: none;
-}
-/* Dropdown menu (under "Foundation" and "Contacts") appears in one column */
-
-#menu li ul li {
-    float: none;
-    width: 100%;
-}
-/* Dropdown menu (under "Foundation" and "Contacts") formatting */
-
-#menu li ul li a {
-    display: block;
-    border: none;
-    vertical-align: middle;
-    padding: 0 .5em;
-    font-family: Tahoma;
-    color: #666666;
-    font-size: 8pt;
-    font-weight: bold;
-    text-align: left;
-}
-
-#menu li ul li + li {
-    margin-top: -1px;
-}
-
-#img {
-    width: auto;
-}
-
-#topimage {
-    margin: auto;
-    width: 766px;
-    height: 213px;
-    padding-bottom: 30px;
-}
-
-#line {
-    margin: center;
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-#nav a {
-    display: block;
-    float: left;
-    width: 100px;
-}
-
-div.item {
-    /* To correctly align image, regardless of content height: */
-    
-    vertical-align: top;
-    display: inline-block;
-    margin: 18px;
-    /* To horizontally center images and caption */
-    
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    
-    width: 120px;
-}
-
-.caption {
-    /* Make the caption a block so it occupies its own line. */
-    
-    font-family: Arial;
-    font-size: 10pt;
-    font-weight: bold;
-    color: #555555;
-    display: block;
-}
-
-#ArtistDatabase {
-    text-decoration: underline;
-    color: rgb(244, 69, 0);
-    cursor: auto;
-    font-weight: bold;
-    font-size: 23px;
-    padding: 5px;
-}
-
-div a {
-    float: left;
-    width: 255.3px;
-    height: 30px;
-    text-decoration: none;
-    font-size: 10pt;
-    color: #555555;
-    font-weight: bold;
-}
-
-div.names {
-    margin-left: 300px;
-    width: 900px;
-}
-/* TODO: Add formatting for div row */
-
-.caption2 {
-    text-align: left;
-    width: 153.2px;
-}
-
-div a:hover {
-    color: #FF6600;
-}
-
 #blackbox {
     clear: both;
     width: 791px;
@@ -224,17 +207,17 @@ div a:hover {
 }
 
 footer p {
+    margin: auto;
     font-size: 10.0pt;
     font-family: Arial, sans-serif;
     width: 791px;
     height: 138px;
 }
 
-#bottomMenu{
+#bottomMenu {
     list-style: none;
     display: inline;
     text-align: center;
-   
 }
 
 #bottomMenu li a {
