@@ -1,3 +1,10 @@
+* {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
+
 #backgr {
     clear: both;
     background-color: black;
@@ -16,17 +23,14 @@ body {
 }
 
 #menu {
+
    margin: auto;
     width: 700px;
+
 }
 
-#menu,
 #menu li {
     list-style: none;
-    display: block;
-}
-
-#menu li {
     float: left;
     height: 25px;
     padding: 0 3px 0 3px;
@@ -34,16 +38,15 @@ body {
 }
 
 #menu li a {
-    display: block;
     text-decoration: none;
-    border: none;
-    font: bold 12pt Calibri, Tahoma, Arial;
+    font-family: Calibri, Tahoma, Arial;
     color: #333333;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
-#menu li a:hover,
-#menu li ul li a:hover {
-    color: #ff3333;
+#menu li a:hover {
+    color: #FF3333;
 }
 
 #menu li ul {
@@ -66,7 +69,9 @@ body {
     display: block;
 }
 
+
 #menu li ul li a {
+
     display: block;
     width: 100%;
     border: none;
