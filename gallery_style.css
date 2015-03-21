@@ -227,3 +227,30 @@ div.names{
     
   
 }
+
+div.fifth {
+    word-spacing: 150px;
+    font-size: 10pt;
+}
+
+div a {
+    float: left;
+    width: 255.3px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #555555;
+    font-weight: bold;
+}
+
+div a:hover {
+    color: #FF6600;
+}
+
+#blackbox {
+    clear: both;
+    width: 791px;
+    height: 150px;
+    background-color: black;
+    margin: auto;
+}
