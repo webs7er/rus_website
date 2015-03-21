@@ -1,14 +1,23 @@
 #backgr {
     clear: both;
     background-color: black;
-    width: 768px;
-    height: 2065px;
+    width: 890px;
+    height: 2040px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(images_concept/bg6.gif);
+    background-image: url(images_concept/bg9.gif);
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url(images_gallery/bg.gif);
 }
 
 #menu {
-    margin: 0 0 0 120px;
+   margin: auto;
+    width: 700px;
 }
 
 #menu,
@@ -38,10 +47,10 @@
 }
 
 #menu li ul {
-    display: none;
     position: absolute;
-    top: 27px;
-    left: 10px;
+    display: none;
+    top: 1.5em;
+    left: 0.5em;
     padding: 0;
     background: #ff9933;
 }
@@ -49,15 +58,12 @@
 #menu li ul li {
     margin: 10px 0 10px 0;
     height: 15px;
+    float: none;
+    width: 100%;
 }
 
 #menu li:hover ul {
     display: block;
-}
-
-#menu li ul li {
-    float: none;
-    width: 100%;
 }
 
 #menu li ul li a {
