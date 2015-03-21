@@ -231,6 +231,15 @@ div a {
     
 }
 
+div.names{
+    margin: auto;
+    width: 766px;    
+}
+
+.caption2{
+    text-align: left;
+}
+
 div a:hover {
     color: #FF6600;
 }
