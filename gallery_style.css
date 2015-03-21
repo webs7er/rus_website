@@ -132,7 +132,7 @@ div a:hover {
 
 div.names {
     margin: auto;
-    width: 900px;
+    width: 980px;
 }
 
 .adbtextbox {
@@ -174,65 +174,34 @@ div.item {
     padding: 5px;
 }
 
-<<<<<<< HEAD
+
 div a {
     float: left;
     height: 30px;
-=======
+}
+
 #artworks {
     clear: left;
->>>>>>> origin/master
     text-decoration: none;
     color: #F44500;
     font-weight: bold;
     font-size: 13px;
     padding-bottom: 20px;
 }
-
-#slides {
-    width: 766px;
-    height: 100px;
-    background-color: black;
-    margin: auto;
-}
-
+    
 body {
     font-family: Arial;
     text-align: center;
     background-image: url(images_gallery/bg.gif);
 }
 
-#blackbox {
-    clear: both;
-    width: 791px;
-    height: 150px;
-    background-color: black;
-    margin: auto;
-    margin-top: 15px;
-    background-image: url(images_gallery/1.png);
-}
-
-footer p {
-    margin: auto;
-    font-size: 10.0pt;
-    font-family: Arial, sans-serif;
-    width: 791px;
-    height: 138px;
-}
-
 #bottomMenu {
     list-style: none;
-<<<<<<< HEAD
     padding: 60px 30px 60px 150px;
     color: red;
-=======
-    display: inline;
-    text-align: center;
->>>>>>> origin/master
 }
-
 #bottomMenu li a {
-    color: red;
+     color: red;
 }
 
 #blackbox span {
@@ -242,4 +211,18 @@ footer p {
     
 }
 
-    
+#blackbox {
+    clear: both;
+    width: 791px;
+    height: 150px;
+    background-color: black;
+    margin: auto;
+}
+
+footer p {
+    margin: auto;
+    font-size: 10.0pt;
+    font-family: Arial, sans-serif;
+    width: 791px;
+    height: 138px;
+}
