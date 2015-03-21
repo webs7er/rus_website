@@ -190,7 +190,6 @@ div.item {
 
 div a {
     float: left;
-    width: 255.3px;
     height: 30px;
     text-decoration: none;
     font-size: 10pt;
@@ -230,15 +229,21 @@ footer p {
     height: 138px;
 }
 
-#bottomMenu{
+#bottomMenu {
     list-style: none;
-    display: inline;
-    text-align: center;
-   
+    padding: 60px 30px 60px 150px;
+    color: red;
 }
 
 #bottomMenu li a {
-    border: none;
-    font-family: Tahoma;
-    color: rgb(255, 0, 0);
+    color: red;
+}
+
+#blackbox span {
+    color: darkgoldenrod;
+    font-weight: bold;
     font-size: 10pt;
+    
+}
+
+    
