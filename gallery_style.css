@@ -171,22 +171,6 @@ div.item {
     width: 120px;
 }
 
-
-
-div.theLastItem {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    padding: 18px;
-    
-    /* To horizontally center images and caption */
-    
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    
-    width: 120px;
-}
-
 .caption {
     /* Make the caption a block so it occupies its own line. */
     
@@ -196,6 +180,8 @@ div.theLastItem {
     color: #555555;
     display: block;
 }
+
+
 
 #ArtistDatabase{
     text-decoration: underline;
@@ -228,21 +214,16 @@ div.fifth{
 }
 
 div a{
+    width: 255px;
     text-align: left;
-    margin: 0 20 0 20;
+    float: left;
+    align-content: center;
+    margin: 10px;
+    
 }
     
-
-
-
-
-
 div.names{
-
     margin: auto;
-    width: 766px;
-    height: auto;
-    word-spacing: 50px;
-   
-   
+    
+  
 }
