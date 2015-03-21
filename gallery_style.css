@@ -29,8 +29,8 @@
 
 #FB {
     float: right;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 #artworks {
@@ -56,22 +56,18 @@ body {
 }
 
 #menu {
-    /*Remove the dots in the dropdown menu */
-    
     align-content: center;
     width: 766px;
     margin: auto;
     list-style: none;
     font-family: fantasy;
 }
-/* Dropdown menu formatting */
 
 #menu ul,
 #menu ul li {
     list-style: none;
     display: block;
 }
-/* Main menu appears in one line (and not in one column) */
 
 #menu li {
     display: inline-block!important;
@@ -79,7 +75,6 @@ body {
     line-height: 1.5em;
     position: relative;
 }
-/* Main menu formatting */
 
 #menu li a {
     margin: center;
@@ -93,7 +88,6 @@ body {
     font-size: 13pt;
     font-weight: normal;
 }
-/* Dropdown menu (under "Foundation" and "Contacts") is hidden by default*/
 
 #menu li ul {
     display: none;
@@ -102,19 +96,16 @@ body {
     left: .5em;
     background: #FFFFFF;
 }
-/* Dropdown menu (under "Foundation" and "Contacts") is displayed on hover */
 
 #menu li:hover ul {
     display: block;
     float: none;
 }
-/* Dropdown menu (under "Foundation" and "Contacts") appears in one column */
 
 #menu li ul li {
     float: none;
     width: 100%;
 }
-/* Dropdown menu (under "Foundation" and "Contacts") formatting */
 
 #menu li ul li a {
     display: block;
