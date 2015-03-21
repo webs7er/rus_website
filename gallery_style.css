@@ -212,22 +212,7 @@ div.third {
 div.fifth{
     word-spacing: 150px;
     font-size: 10pt;
-}
-
-div a{
-    width: 255px;
-    text-align: left;
-    float: left;
-    align-content: center;
-    margin: 10px;
-    
-}
-    
-div.names{
-    margin: auto;
-    
-  
-}
+} 
 
 div.fifth {
     word-spacing: 150px;
@@ -235,6 +220,7 @@ div.fifth {
 }
 
 div a {
+    
     float: left;
     width: 255.3px;
     height: 30px;
@@ -242,6 +228,7 @@ div a {
     font-size: 10pt;
     color: #555555;
     font-weight: bold;
+    
 }
 
 div a:hover {
