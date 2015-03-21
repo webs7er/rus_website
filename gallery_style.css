@@ -220,6 +220,7 @@ div a:hover {
     background-color: black;
     margin: auto;
     margin-top: 15px;
+    background-image: url(images_gallery/1.png);
 }
 
 footer p {
@@ -228,3 +229,16 @@ footer p {
     width: 791px;
     height: 138px;
 }
+
+#bottomMenu{
+    list-style: none;
+    display: inline;
+    text-align: center;
+   
+}
+
+#bottomMenu li a {
+    border: none;
+    font-family: Tahoma;
+    color: rgb(255, 0, 0);
+    font-size: 10pt;
