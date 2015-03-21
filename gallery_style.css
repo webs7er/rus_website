@@ -25,14 +25,12 @@
     padding: 10px;
     font-weight: bold;
     color: #555;
-    
 }
 
 #FB {
     float: right;
     width: 25px;
     height: 25px;
-   
 }
 
 #artworks {
@@ -181,9 +179,7 @@ div.item {
     display: block;
 }
 
-
-
-#ArtistDatabase{
+#ArtistDatabase {
     text-decoration: underline;
     color: rgb(244, 69, 0);
     cursor: auto;
@@ -192,35 +188,7 @@ div.item {
     padding: 5px;
 }
 
-div.first{
-    word-spacing: 150px;
-    font-size: 10pt;   
-}
-div.second{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-div.third{
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-
-div.third {
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-div.fifth{
-    word-spacing: 150px;
-    font-size: 10pt;
-} 
-
-div.fifth {
-    word-spacing: 150px;
-    font-size: 10pt;
-}
-
 div a {
-    
     float: left;
     width: 255.3px;
     height: 30px;
@@ -228,16 +196,17 @@ div a {
     font-size: 10pt;
     color: #555555;
     font-weight: bold;
-    
 }
 
-div.names{
-    margin: auto;
-    width: 766px;    
+div.names {
+    margin-left: 300px;
+    width: 900px;
 }
+/* TODO: Add formatting for div row */
 
-.caption2{
+.caption2 {
     text-align: left;
+    width: 153.2px;
 }
 
 div a:hover {
