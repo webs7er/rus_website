@@ -88,21 +88,25 @@ body {
     text-align: left;
 }
 
-<<<<<<< HEAD
 #walloftext {
     margin-top: 20px;
     margin-bottom: 40px;
     font-family: Calibri, sans-serif;
-    float: right;
+    float: left;
     width: 60%;
     text-align: left;
     color: #FF9933;
-=======
-#fistLeft {
+}
+
+#allsix {
+    width: 40%;
+    float: left;
+}
+
+#firstLeft {
     width: 308px;
     height: 89px;
     float: left;
-    
 }
 
 #backgr p span1 {
@@ -129,7 +133,6 @@ body {
 .subheading {
     padding-top: 10px;
     padding-bottom: 5px;
-
 }
 
 #banner {
@@ -139,21 +142,15 @@ body {
 }
 
 div.item {
-    display: block;
     width: 250px;
     margin: 25px;
-   
-    
+    border: 3px solid #000000;
+    border-color: gray;
 }
 
 div.images_gallery img {
     width: 246px;
     height: 183px;
-    border: 3px solid #000000;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: gray;
-    
 }
 
 .picture_caption {
@@ -169,7 +166,7 @@ div.images_gallery img {
     background-color: rgb(255, 153, 51);
 }
 
-#div_bottomMenu{
+#div_bottomMenu {
     display: inline;
 }
 
@@ -180,18 +177,17 @@ div.images_gallery img {
 }
 
 #bottomMenu li a {
-     color: red;
-     font-weight: bold;
-    
+    color: red;
+    font-weight: bold;
 }
-#bottomMenu li{
+
+#bottomMenu li {
     display: inline;
 }
 
 #mailto li {
     list-style: none;
     margin-top: 50px;
-    
 }
 
 #mailto a {
@@ -199,16 +195,14 @@ div.images_gallery img {
     color: rgb(255, 153, 51);
     font-weight: bold;
     font-size: small;
-    
 }
 
 footer p {
     margin-top: 20px;
-   text-align: left;
+    text-align: left;
     font-size: 10.0pt;
     font-family: Arial, sans-serif;
     width: 791px;
     height: 138px;
     color: rgb(255, 0, 0);
->>>>>>> origin/master
 }
