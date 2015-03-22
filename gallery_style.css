@@ -174,7 +174,6 @@ div.item {
     padding: 5px;
 }
 
-
 div a {
     float: left;
     height: 30px;
@@ -188,7 +187,7 @@ div a {
     font-size: 13px;
     padding-bottom: 20px;
 }
-    
+
 body {
     font-family: Arial;
     text-align: center;
@@ -200,15 +199,15 @@ body {
     padding: 60px 30px 60px 150px;
     color: red;
 }
+
 #bottomMenu li a {
-     color: red;
+    color: red;
 }
 
 #blackbox span {
     color: darkgoldenrod;
     font-weight: bold;
     font-size: 10pt;
-    
 }
 
 #blackbox {
@@ -225,4 +224,8 @@ footer p {
     font-family: Arial, sans-serif;
     width: 791px;
     height: 138px;
+}
+
+#slides {
+    background-color: #49361E;
 }
