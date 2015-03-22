@@ -88,6 +88,7 @@ body {
     text-align: left;
 }
 
+<<<<<<< HEAD
 #walloftext {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -96,4 +97,118 @@ body {
     width: 60%;
     text-align: left;
     color: #FF9933;
+=======
+#fistLeft {
+    width: 308px;
+    height: 89px;
+    float: left;
+    
+}
+
+#backgr p span1 {
+    width: 570px;
+    border-style: none;
+    border-width: medium;
+    font-family: arial;
+    color: rgb(255, 153, 51);
+    letter-spacing: 1pt;
+    font-size: large;
+}
+
+#backgr p span2 {
+    width: 570px;
+    border-style: none;
+    border-width: medium;
+    font-family: arial;
+    color: rgb(255, 0, 0);
+    letter-spacing: 1pt;
+    font-size: small;
+    font-weight: bold;
+}
+
+.subheading {
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+#banner {
+    height: 20px;
+    font-family: fantasy;
+    background-color: rgb(255, 153, 51);
+}
+
+div.item {
+    display: block;
+    width: 250px;
+    margin: 25px;
+   
+    
+}
+
+div.images_gallery img {
+    width: 246px;
+    height: 183px;
+    border: 3px solid #000000;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+    
+}
+
+.picture_caption {
+    font-family: Calibri;
+    font-size: medium;
+    color: rgb(255, 153, 51);
+    text-align: left;
+}
+
+#banner1 {
+    height: 20px;
+    font-family: fantasy;
+    background-color: rgb(255, 153, 51);
+}
+
+#div_bottomMenu{
+    display: inline;
+}
+
+#bottomMenu {
+    list-style: none;
+    padding-top: 40px;
+    color: red;
+}
+
+#bottomMenu li a {
+     color: red;
+     font-weight: bold;
+    
+}
+#bottomMenu li{
+    display: inline;
+}
+
+#mailto li {
+    list-style: none;
+    margin-top: 50px;
+    
+}
+
+#mailto a {
+    text-decoration: none;
+    color: rgb(255, 153, 51);
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+footer p {
+    margin-top: 20px;
+   text-align: left;
+    font-size: 10.0pt;
+    font-family: Arial, sans-serif;
+    width: 791px;
+    height: 138px;
+    color: rgb(255, 0, 0);
+>>>>>>> origin/master
 }
