@@ -5,6 +5,16 @@
     border: 0px 0px 0px 0px;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF3300;
+}
+
+a:hover {
+    font-weight: normal;
+}
+
 #backgr {
     clear: both;
     background-color: black;
@@ -23,10 +33,10 @@ body {
 }
 
 #menu {
-
-   margin: auto;
-    width: 700px;
-
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
 }
 
 #menu li {
@@ -69,12 +79,8 @@ body {
     display: block;
 }
 
-
 #menu li ul li a {
-
     display: block;
-    width: 100%;
-    border: none;
     font-family: Tahoma;
     color: #333333;
     font-size: 8pt;
@@ -82,11 +88,25 @@ body {
     text-align: left;
 }
 
-#fistLeft {
+#walloftext {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Calibri, sans-serif;
+    float: left;
+    width: 60%;
+    text-align: left;
+    color: #FF9933;
+}
+
+#allsix {
+    width: 40%;
+    float: left;
+}
+
+#firstLeft {
     width: 308px;
     height: 89px;
     float: left;
-    
 }
 
 #backgr p span1 {
@@ -113,7 +133,6 @@ body {
 .subheading {
     padding-top: 10px;
     padding-bottom: 5px;
-
 }
 
 #banner {
@@ -123,11 +142,10 @@ body {
 }
 
 div.item {
-    display: block;
     width: 250px;
     margin: 25px;
-   
-    
+    border: 3px solid #000000;
+    border-color: gray;
 }
 
 div.images_gallery img {
@@ -149,7 +167,7 @@ div.images_gallery img {
     background-color: rgb(255, 153, 51);
 }
 
-#div_bottomMenu{
+#div_bottomMenu {
     display: inline;
 }
 
@@ -160,18 +178,17 @@ div.images_gallery img {
 }
 
 #bottomMenu li a {
-     color: red;
-     font-weight: bold;
-    
+    color: red;
+    font-weight: bold;
 }
-#bottomMenu li{
+
+#bottomMenu li {
     display: inline;
 }
 
 #mailto li {
     list-style: none;
     margin-top: 50px;
-    
 }
 
 #mailto a {
@@ -179,7 +196,6 @@ div.images_gallery img {
     color: rgb(255, 153, 51);
     font-weight: bold;
     font-size: small;
-    
 }
 
 footer p {
